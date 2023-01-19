@@ -12,11 +12,12 @@
     <img class="lhome" src="Home.png">
     <h1> signup Now</h1>
 
-    <form>
-        <input type="User Name" class="input-box" placeholder="User Name">
-        <input type="email" class="input-box" placeholder="Your Email">
-        <input type="password" class="input-box" placeholder="User Password">
+    <form action="connect.php" method="post">
+        <input type="text" class="input-box" id="fname" name="fname"placeholder="User Name">
+        <input type="text" class="input-box" id="email" name="email" placeholder="Your Email">
+        <input type="password" class="input-box" id="password" name="password" placeholder="User Password">
         <p><span><input type="checkbox" ></span>all info are right</p>
+        <input type="submit" value="save" />
         <button type="button" onclick="window.location.href='profile.html';" class="buttonsign" >Sign Up</button>
 
         <hr>
